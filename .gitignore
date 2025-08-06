@@ -1,0 +1,5 @@
+.env
+.venv/
+site/
+data/**/
+!data/compiled/

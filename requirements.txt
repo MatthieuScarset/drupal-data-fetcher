@@ -1,0 +1,15 @@
+# Common libraries
+loguru
+mkdocs
+pip
+pytest
+python-dotenv
+pandas
+requests
+ruff
+tqdm
+typer
+# Datasets
+h2 
+orjson 
+pyarrow

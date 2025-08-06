@@ -1,0 +1,5 @@
+site_name: Drupal Data Fetcher
+site_author: Matthieu Scarset
+theme: readthedocs
+repo_url: https://github.com/matthieuscarset/drupal-data-fetcher
+edit_uri_template: 'blob/main/docs/{path}'
