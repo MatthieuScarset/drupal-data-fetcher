@@ -10,6 +10,11 @@ ruff
 tqdm
 typer
 # Datasets
-h2 
+h2
+httpx
 orjson 
 pyarrow
+# Google Cloud
+google-cloud-storage
+google-cloud-bigquery
+pandas-gbq

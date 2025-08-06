@@ -1,5 +1,7 @@
 .env
 .venv/
+*.egg-info/
+__pycache__/
 site/
 data/**/
 !data/compiled/

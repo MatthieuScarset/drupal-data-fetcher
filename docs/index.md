@@ -10,7 +10,16 @@ Connect with Matthieu on LinkedIn: [linkedin.com/in/matthieuscarset](https://lin
 
 ## Getting started
 
-...
+### GCP Service Account
+
+```bash
+SA=$SERVICE_ACCOUNT@$GCP_PROJECT_ID.iam.gserviceaccount.com
+gcloud iam service-accounts create $SERVICE_ACCOUNT --display-name $DISPLAY_NAME
+gcloud iam service-accounts keys create ~/gcp/$SERVICE_ACCOUNT.json --iam-account $SA
+gcloud projects add-iam-policy-binding $GCP_PROJECT_ID \
+    --member="serviceAccount:$SA" \
+    --role=$ROLE_OWNER
+```
 
 ## References
 

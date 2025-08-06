@@ -13,5 +13,5 @@ setup(
     packages=find_packages(),
     author="Mattieu Scarset",
     author_email="m@matthieuscarset.com",
-    license="MIT"
+    license="MIT",
 )
